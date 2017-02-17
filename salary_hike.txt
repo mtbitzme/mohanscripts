@@ -1,0 +1,12 @@
+#salary hike based on salary amount
+
+read  -p "enter the salary "   salary
+
+if [$salary -le 10000]
+then
+echo $number + 10%($number)
+elif
+[$salary -ge 10000]
+then
+echo $number +15%($number)
+fi

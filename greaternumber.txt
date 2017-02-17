@@ -4,3 +4,8 @@ a=10
 b=20
 
 echo exract [$a +$b]
+
+set  $1=[$a +$b]
+
+if {$1 -ge 20]
+echo number is a valid

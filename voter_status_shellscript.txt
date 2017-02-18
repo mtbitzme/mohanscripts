@@ -6,9 +6,9 @@ read -p "what is ur age" age
 if [ $age -g 18 ]
 then 
 echo "he is eligible to vote"
-mail -s  "voting status" mohannagaraj2587@gmail.com <<< "he is eligible to vote in next election"
+mail  -s  "voting status" mohannagaraj2587@gmail.com <<< "he is eligible to vote in next election"
 else
 echo "he is not eligible to vote"
-mail -s "voting status" mohannagaraj2587@gmail.com <<< "he is not eligible to vote in next election"
+mail  -s "voting status" mohannagaraj2587@gmail.com <<< "he is not eligible to vote in next election"
 fi
 
